@@ -1,0 +1,45 @@
+.wrapper {
+    width: auto;
+    margin: auto;
+    height: auto;
+    text-align: left;
+}
+
+.form-part.edit > div
+{
+    width: auto;
+}
+
+.form-part.edit input, input:focus
+{
+    height: auto;
+    width: auto;
+}
+
+.form-part.control
+{
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+.controls-wrapper
+{
+    display: flex;
+    height: 30%;
+}
+
+.list .list-container
+{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.list .list-container .phone
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 2%;
+    margin-bottom: .5rem;
+}

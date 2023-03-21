@@ -1,0 +1,17 @@
+<div class="form-part list" style="height: auto">
+    <div class="list-container" style="height: auto">
+        {{#each phones}}
+            {{>phone}}
+        {{/each}}
+    </div>
+</div>
+<div class="form-part edit">
+    <div class="controls-wrapper">
+        <input type="text" name="fio" placeholder="fio">
+        <input type="text" name="number" placeholder="number">
+        <a class="form-part control" onclick="create()">Ok</a>
+    </div>
+</div>
+<div class="controls-wrapper">
+    <a class="form-part control" onclick="{{goBack}}">Cancel</a>
+</div>
